@@ -1,5 +1,5 @@
 {
-  "homepage": "http://genericdude1998.github.io/test-react-deploy-only",
+  "homepage": "http://genericdude1998.github.io/other-thing",
   "name": "test-ghp-app",
   "version": "1.0.0",
   "description": "",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack serve",
-    "predeploy": "npm run build",
+    "predeploy": "webpack",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
